@@ -8,16 +8,20 @@ DATA FLOW:
 Server Side: /user endpoint
 /register
 POST creates new user in user DB, generates token
+
 /login
 POST verifies user, generates token
 
 Server side: /habit endpoint
 /entry
 POST Enters a new habit 
+
 /update
 PUT Edit habit entry 
+
 /delete
 DELETE Deletes habit
+
 /profile
 GET Gets user’s profile
 
@@ -25,10 +29,13 @@ GET Gets user’s profile
 Server side: /journal endpoint
 /entry
 POST Enters a new journal entry
+
 /update
 PUT Edits journal entry
+
 /delete
 DELETE Deletes journal entry
+
 /list
 GET Gets user’s list of journal entries 
 
