@@ -1,45 +1,45 @@
 -- ROUTINE --
 Creating positive and healthy habits have been a hot topic lately, especially coming out of one of the most unpredictable times in our lifetime when nothing seemed normal or routine. “Routine” is an application that will help individuals track habits that will set them up for a balanced and successful life. Users will be able to create a login that will lead them to the application. Once they are logged in, they will be able to set up new habits to track as well as submit journal entries about their habit journey.
 
-PERN Stack Application - utilizing PostgresSql, Express, React, and Node 
+- PERN Stack Application - utilizing PostgresSql, Express, React, and Node 
 
 DATA FLOW: 
 
 Server Side: /user endpoint
-/register
+1) /register
 POST creates new user in user DB, generates token
 
-/login
+2) /login
 POST verifies user, generates token
 
 
 
 Server side: /habit endpoint
-/entry
+1) /entry
 POST Enters a new habit 
 
-/update
+2) /update
 PUT Edit habit entry 
 
-/delete
+3) /delete
 DELETE Deletes habit
 
-/profile
+4) /profile
 GET Gets user’s profile
 
 
 
 Server side: /journal endpoint
-/entry
+1) /entry
 POST Enters a new journal entry
 
-/update
+2) /update
 PUT Edits journal entry
 
-/delete
+3) /delete
 DELETE Deletes journal entry
 
-/list
+4) /list
 GET Gets user’s list of journal entries 
 
 
