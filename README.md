@@ -12,6 +12,8 @@ POST creates new user in user DB, generates token
 /login
 POST verifies user, generates token
 
+
+
 Server side: /habit endpoint
 /entry
 POST Enters a new habit 
@@ -24,6 +26,7 @@ DELETE Deletes habit
 
 /profile
 GET Gets user’s profile
+
 
 
 Server side: /journal endpoint
